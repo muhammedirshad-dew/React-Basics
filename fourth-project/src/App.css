@@ -1,44 +1,59 @@
-.app{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: white;
-}
-
-.profile-container{
-    border: 2px solid black ;
-    border-radius: 10px;
-    align-items: center;
-    border: 2px solid #ccc;
-    background-color: rgb(156, 156, 166);
-    width: 300px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-    /* padding: 20px; */
-
-}
-.profile-image{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-p{
-  text-align: center;
-  margin-bottom: -px;
-}
-.social-links{
+.app {
   display: flex;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
 }
-.social-links a{
+
+
+.profile-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-links a {
   margin: 0 15px;
   text-decoration: none;
   color: #000;
-  margin-top: 10px;
 }
-.social-links a i{
+
+.social-links a i {
   font-size: 25px;
+}
+
+
+.app:hover {
+  background-color: #f9f1f1;
+  transition: background-color 0.3s ease;
 }
