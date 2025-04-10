@@ -1,0 +1,44 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.profile-container{
+    border: 2px solid black ;
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid #ccc;
+    background-color: rgb(156, 156, 166);
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    /* padding: 20px; */
+
+}
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+p{
+  text-align: center;
+  margin-bottom: -px;
+}
+.social-links{
+  display: flex;
+  align-items: center;
+}
+.social-links a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  margin-top: 10px;
+}
+.social-links a i{
+  font-size: 25px;
+}

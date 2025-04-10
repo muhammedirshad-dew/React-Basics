@@ -1,0 +1,12 @@
+.about-container{
+    background-color: #ca2828;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    color: rgb(249, 26, 26);
+}
+.p1{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #2722ad;
+}
